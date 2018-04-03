@@ -1,0 +1,42 @@
+{
+  "name": "react-fish-store",
+  "version": "0.0.3",
+  "private": true,
+  "devDependencies": {
+    "concurrently": "3.5.1",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.4.0",
+    "prettier": "^1.11.1",
+    "react-app-rewire-eslint": "^0.2.3",
+    "react-app-rewired": "^1.5.0",
+    "react-scripts": "1.1.1"
+  },
+  "dependencies": {
+    "autoprefixer-stylus": "0.14.0",
+    "firebase": "^4.10.0",
+    "prop-types": "^15.6.0",
+    "re-base": "3.2.2",
+    "react": "^16.3.0-alpha.1",
+    "react-dom": "^16.3.0-alpha.1",
+    "react-router-dom": "^4.2.2",
+    "react-transition-group": "^2.2.1",
+    "serve": "^6.5.0",
+    "stylus": "0.54.5"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "watch": "concurrently --names \"webpack, stylus\" --prefix name \"npm run start\" \"npm run styles:watch\"",
+    "build": "react-app-rewired build",
+    "eject": "react-scripts eject",
+    "test": "react-app-rewired test — env=jsdom",
+    "styles": "stylus -u autoprefixer-stylus ./src/css/style.styl -o ./src/css/style.css",
+    "styles:watch": "stylus -u autoprefixer-stylus -w ./src/css/style.styl -o ./src/css/style.css",
+    "format": "prettier --trailing-comma es5 --single-quote --write 'src/*/*.js' 'src/*/!(node_modules)/**/*.js'",
+    "lint": "npm run format && eslint --fix --config .eslintrc.js src"
+  }
+}
