@@ -1,0 +1,107 @@
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/tmp": true,
+        "**/dist": true,
+        ".idea": true,
+        "jsconfig.json": true,
+        //"**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.next": true,
+    },
+    "editor.formatOnType": true,
+    "workbench.iconTheme": "vscode-icons",
+    "typescript.referencesCodeLens.enabled": true,
+    "html.format.indentHandlebars": true,
+    "html.format.indentInnerHtml": true,
+    "terminal.integrated.fontSize": 14,
+    "files.autoSave": "off",
+    "window.titleBarStyle": "custom",
+    "window.nativeTabs": false,
+    "emmet.triggerExpansionOnTab": true,
+    "files.exclude": {
+        "**/.DS_Store": true, // this is a default value
+        "**/node_modules": false, // this excludes all folders
+        // only from the root of
+        // your workspace
+        "dist": true,
+        "tmp": true,
+        ".idea": true,
+        ".vscode": true,
+        ".cache": true,
+        // named "node_modules" from
+        // the explore tree
+        // alternative version
+        //"node_modules": true, // this excludes the folder
+        //"**/.git": true, // this is a default value
+        //"deploy": true,
+        //"tests": true,
+        //"jsconfig.json": true,
+        //".*": true,
+    },
+    "[plaintext]": {},
+    "liveServer.settings.donotShowInfoMsg": true,
+    "git.autofetch": true,
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": false,
+    "typescript.format.insertSpaceBeforeFunctionParenthesis": false,
+    "typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+    "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+    "git.promptToSaveFilesBeforeCommit": true,
+    "cSpell.language": "en",
+    "cSpell.userWords": [
+        "component",
+        "endregion",
+        "unmount",
+        "will"
+    ],
+    "workbench.editor.tabSizing": "fit",
+    "html.format.enable": true,
+    "html.format.preserveNewLines": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.tabSize": 2,
+    // this isn't really underline but we hack it to be a thicker cursor
+    "editor.cursorStyle": "line",
+    "editor.wordWrap": "on",
+    "editor.fontWeight": "normal",
+    "editor.cursorBlinking": "solid",
+    "editor.colorDecorators": false,
+    "editor.minimap.enabled": false,
+    "workbench.activityBar.visible": true,
+    "workbench.sideBar.location": "left",
+    "editor.renderWhitespace": "none",
+    "editor.rulers": [
+        80,
+        //100,
+        //120
+    ],
+    "editor.minimap.showSlider": "always",
+    "workbench.startupEditor": "newUntitledFile",
+    "extensions.ignoreRecommendations": false,
+    "workbench.editor.tabCloseButton": "off",
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    // show snippets before any other auto completion
+    "editor.snippetSuggestions": "top",
+    // this lets you quickly open multiple items in a row and not have the previous ones closed on you
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+    // These are all my auto-save configs
+    "editor.formatOnSave": true,
+    // turn it off for JS
+    "[javascript]": {
+        "editor.formatOnSave": false
+    },
+    "eslint.autoFixOnSave": true,
+    "eslint.alwaysShowStatus": true,
+    "fontshortcuts.defaultFontSize": 16,
+    "prettier.eslintIntegration": true,
+    "window.zoomLevel": 0.5,
+    "editor.fontSize": 14,
+    "prettier.singleQuote": true,
+    "prettier.jsxBracketSameLine": true,
+    "prettier.parser": "babylon",
+    "prettier.stylelintIntegration": true,

@@ -16,7 +16,8 @@ module.exports = {
   },
   globals: {
     it: true,
-    localStorage: true
+    localStorage: true,
+    module: true
   },
   rules: {
     'no-debugger': 0,
@@ -75,7 +76,7 @@ module.exports = {
       {
         trailingComma: 'none',
         singleQuote: true,
-        printWidth: 120,
+        printWidth: 80,
         semi: false,
         arrowParens: 'avoid'
       }

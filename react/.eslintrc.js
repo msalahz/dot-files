@@ -6,7 +6,8 @@ module.exports = {
     ecmaFeatures: {
       experimentalObjectRestSpread: true,
       impliedStrict: true,
-      classes: true
+      classes: true,
+      jsx: true
     }
   },
   env: {
@@ -15,7 +16,6 @@ module.exports = {
     jquery: true
   },
   globals: {
-    it: true,
     localStorage: true
   },
   rules: {
@@ -75,8 +75,8 @@ module.exports = {
       {
         trailingComma: 'none',
         singleQuote: true,
-        printWidth: 120,
-        semi: false,
+        printWidth: 80,
+        semi: true,
         arrowParens: 'avoid'
       }
     ],
@@ -88,5 +88,5 @@ module.exports = {
       }
     ]
   },
-  plugins: ['prettier']
+  plugins: ['prettier', 'react']
 }
